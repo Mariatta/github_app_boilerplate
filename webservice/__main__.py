@@ -101,6 +101,13 @@ async def pr_opened(event, gh, *args, **kwargs):
         oauth_token=installation_access_token["token"],
     )
 
+    # add label
+    response = await gh.patch(
+        issue_url,
+        data={"labels": ["needs review"]},
+        oauth_token=installation_access_token["token"],
+    )
+
 
 @router.register("issue_comment", action="created")
 async def issue_comment_created(event, gh, *args, **kwargs):
