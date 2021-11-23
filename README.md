@@ -7,12 +7,7 @@ deployment to Heroku.
 Heroku Setup
 ------------
 
-
-|Deploy|
-
-.. |Deploy| image:: https://www.herokucdn.com/deploy/button.svg
-   :target: https://heroku.com/deploy?template=https://github.com/mariatta/github_app_boilerplate
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mariatta/github_app_boilerplate)
 
 Add the following config vars in Heroku.
 
@@ -26,5 +21,4 @@ Add the following config vars in Heroku.
 -----BEGIN RSA PRIVATE KEY-----
 ...somereallylongtext...
 -----END RSA PRIVATE KEY-----
-
 ```
