@@ -22,9 +22,8 @@ Add the following config vars in Heroku.
 
 ``GH_PRIVATE_KEY``: The private key of your GitHub App. It looks like:
 
-```
------BEGIN RSA PRIVATE KEY-----
-...somereallylongtext...
------END RSA PRIVATE KEY-----
+::
 
-```
+  -----BEGIN RSA PRIVATE KEY-----
+  ...somereallylongtext...
+  -----END RSA PRIVATE KEY-----
