@@ -7,7 +7,12 @@ deployment to Heroku.
 Heroku Setup
 ------------
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mariatta/github_app_boilerplate)
+
+|Deploy|
+
+.. |Deploy| image:: https://www.herokucdn.com/deploy/button.svg
+   :target: https://heroku.com/deploy?template=https://github.com/mariatta/github_app_boilerplate
+
 
 Add the following config vars in Heroku.
 
@@ -17,8 +22,8 @@ Add the following config vars in Heroku.
 
 ``GH_PRIVATE_KEY``: The private key of your GitHub App. It looks like:
 
-```
------BEGIN RSA PRIVATE KEY-----
-...somereallylongtext...
------END RSA PRIVATE KEY-----
-```
+::
+
+  -----BEGIN RSA PRIVATE KEY-----
+  ...somereallylongtext...
+  -----END RSA PRIVATE KEY-----
